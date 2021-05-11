@@ -21,6 +21,7 @@ let html = `
             <li><p>ПИК</p>
               <ul>
                 <li><a href="/subjects/PIK/exams.php">Изпити</a></li>
+                <li><a href="/subjects/PIK/resources.php">Материали</a></li>
               </ul>
             </li>
 
