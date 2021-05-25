@@ -17,28 +17,33 @@
         <div class="wrap">
     <?php
     date_default_timezone_set("Europe/Sofia");
-        $files = glob('.resources/*.pdf');
+        $files = glob('./resources/*.pdf');
         foreach($files as $file)
         {
           echo'<a class="blue-btn" href="lectures/.'.$file.'" target="_blank">'.basename($file).'</a>';
         }
-?>
+		?>
         </div>
-        <h1>Решения/Помощни материали</h1>
+        <h1>Решения</h1>
         <div class="wrap">
     <?php
-        $files = glob('.resources/*.c');
+        $files = glob('./resources/*.c');
         foreach($files as $file)
         {
           echo'<a class="blue-btn" href="lectures/.'.$file.'" target="_blank">'.basename($file).'</a>';
         }
-        $files = glob('.resources/*.md');
-        foreach($files as $file)
-        {
-          echo'<a class="blue-btn" href="lectures/.'.$file.'" target="_blank">'.basename($file).'</a>';
-        }
-?>
+		?>
         </div>
+		<h1>Задачи</h1>
+		<div class="wrap">
+		<?php
+		$files = glob('./resources/*.md');
+        foreach($files as $file)
+        {
+          echo'<a class="blue-btn" href="lectures/.'.$file.'" target="_blank">'.basename($file).'</a>';
+        }
+		?>
+		</div>
     </div>
   </header>
   <script src="/js/nav.js"></script>
