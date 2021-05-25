@@ -9,9 +9,19 @@ let html = `
         <ul>
             <li><a href="/">Начало</a></li>
 
+            <li><p>Календари</p>
+              <ul>
+              <li><a href="/calendars/cal_41.php">41 Група</a></li>
+              <li><a href="/calendars/cal_42.php">42 Група</a></li>
+              <li><a href="/calendars/cal_43.php">43 Група</a></li>
+              <li><a href="/calendars/cal_44.php">44 Група</a></li>
+              </ul>
+            </li>
+
             <li><p>ПИК</p>
               <ul>
                 <li><a href="/subjects/PIK/exams.php">Изпити</a></li>
+                <li><a href="/subjects/PIK/resources.php">Материали</a></li>
               </ul>
             </li>
 
@@ -21,7 +31,21 @@ let html = `
 				        <li><a href="/subjects/OIP/exams.php">Изпити</a></li>
               </ul>
             </li>
-
+            <li><p>Т. пр.</p>
+              <ul>
+                <li><a href="/subjects/tech-pr/materials.php">Материали</a></li>
+              </ul>
+            </li>
+            <li><p>Машинознание</p>
+              <ul>
+                <li><a href="/">Лекции</a></li>
+              </ul>
+            </li>
+            <li><p>Материалознание</p>
+              <ul>
+                <li><a href="/">Лекции</a></li>
+              </ul>
+            </li>
             <li><p>Математика</p>
               <ul>
                 <li><a href="/subjects/maths/materials.php">Лекции/Упр</a>
@@ -35,26 +59,6 @@ let html = `
               </ul>
             </li>
 
-            <li><p>Химия</p>
-              <ul>
-                <li><a href="/subjects/chemistry/exams.php">Изпити</a></li>
-              </ul>
-            </li>
-
-            <li><p>Икономика</p>
-              <ul>
-                <li><p>Нямам Ресурси</p></li>
-                <li><p>Place Holder</p></li>
-              </ul>
-
-            <li><p>Календари</p>
-              <ul>
-              <li><a href="/calendars/cal_41.php">41 Група</a></li>
-              <li><a href="/calendars/cal_42.php">42 Група</a></li>
-              <li><a href="/calendars/cal_43.php">43 Група</a></li>
-              <li><a href="/calendars/cal_44.php">44 Група</a></li>
-              </ul>
-            </li>
         </ul>
       </nav>
     </navbar>
