@@ -33,7 +33,7 @@ let html = `
             </li>
             <li><p>Т. пр.</p>
               <ul>
-                <li><a href="/download">Материали</a></li>
+                <li><a href="/subjects/tech-pr/materials.php">Материали</a></li>
               </ul>
             </li>
             <li><p>Машинознание</p>
