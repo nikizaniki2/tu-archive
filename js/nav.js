@@ -33,7 +33,7 @@ let html = `
             </li>
             <li><p>Т. пр.</p>
               <ul>
-                <li><a href="/">Лекции</a></li>
+                <li><a href="/download">Материали</a></li>
               </ul>
             </li>
             <li><p>Машинознание</p>
